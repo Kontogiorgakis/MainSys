@@ -23,10 +23,10 @@ Our application empowers users to effortlessly organize their shopping experienc
 * **Filter Tasks**: View tasks based on their status with filters to show all tasks, only completed tasks, or only incomplete tasks.
 ## Screenshots
 
-| ![Tasky](project/screenshots/Select_Task.png) | ![Shlist](Screenshots/search.png) | ![Shlist](Screenshots/maps.png) |
+| ![Tasky](project/screenshots/Desktop_1.png) | ![Tasky](project/screenshots/Create_Task.png) | ![Tasky](project/screenshots/Desktop_2.png) |
 |:---:|:---:|:---:|
 | Initialize the app | Search | Maps | 
 
-| ![Shlist](Screenshots/saved.png) | ![Shlist](Screenshots/new_loc.png) | ![Shlist](Screenshots/type.png) 
-|:---:|:---:|:---:|
-| Saved Location | New Location | Type of Location | 
+| ![Tasky](project/screenshots/Desktop_3.png) | ![Tasky](project/screenshots/Select_Task.png) |
+|:---:|:---:|
+| Initialize the app | Search |
