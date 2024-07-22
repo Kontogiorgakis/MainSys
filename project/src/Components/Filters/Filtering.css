@@ -1,0 +1,32 @@
+/* src/Filtering.css */
+
+.filtering {
+    position: absolute; /* Positioning it absolutely to avoid pushing content */
+    width: 15%;
+    top: 36%; /* Positioning it 30% from the top */
+    height: 170px; /* Adjust the height as needed */
+    background-color: #4B3E4A; /* Red background color */
+    box-sizing: border-box; /* Include border in element's total width and height */
+    margin-top: 10px; /* Space between FilterButton and Filtering */
+    margin-right: 1%;
+    float: right;
+
+    border-radius: 30px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Adds a shadow to the component */
+}
+  
+
+.filter-option {
+    font-size: calc(0.8rem + 0.8vw); /* Responsive font size */
+    padding: 10px;
+    cursor: pointer; /* Indicate that the item is clickable */
+    border-bottom: 1px solid white; /* Line separating rows */
+  }
+  
+  .filter-option:last-child {
+    border-bottom: none; /* Remove the line for the last item */
+  }
+  
+  .filter-option:hover {
+    color: #E2D3E1; /* Highlight on hover */
+  }

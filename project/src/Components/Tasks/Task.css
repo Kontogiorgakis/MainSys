@@ -1,0 +1,128 @@
+/* src/Components/Task.css */
+
+.task {
+    background-color: #4B3E4A; /* Background color */
+    border-radius: 30px; /* Rounded corners */
+    padding: 20px; /* Add some padding inside the frame */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add some shadow for better visual */
+    color: white; /* Text color inside the frame */
+    display: flex;
+    flex-direction: column;
+  
+    width: 49%;
+    height: 295px;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+    cursor: pointer;
+    overflow: hidden; /* Hide overflow content */
+}
+
+.task:hover {
+    transform: scale(1.1); /* Scale up the component slightly */
+  }
+
+
+  .task h2 {
+    margin: 0 0 10px;
+    font-size: calc(1rem + 1vw); /* Responsive font size */
+  }
+  
+  .task label {
+    font-size: calc(0.8rem + 0.5vw); /* Responsive label size */
+    margin-right: 10px;
+  }
+  
+  .task input {
+    font-size: calc(0.8rem + 0.5vw); /* Responsive input size */
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+  
+  .add-button {
+    background-color: darkred;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: calc(1rem + 1vw); /* Responsive button size */
+  }
+  
+
+  /*First Button*/
+  .new-task{
+    justify-content: center;
+    background-color: #221721;
+  }
+
+  .add-icon{
+    font-size: 2em;
+    margin-bottom: 10%;
+    color: white;
+  }
+
+  .createText{
+    font-family: 'Itim', cursive;
+    font-size: 1em;
+  }
+
+
+  /*Tasks*/
+  .task-header{
+    margin-top: 30px;
+  }
+
+
+  .titleTask{
+    font-family: 'Itim', cursive;
+    font-size: 1em;
+    margin-top: 0;
+  }
+
+  .descriptionTask{
+    white-space: nowrap; /* Prevent text wrapping */
+    overflow: hidden; /* Hide overflow content */
+    text-overflow: ellipsis; /* Display ellipsis (...) */
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7em;
+    margin-top: 0;
+
+  }
+
+
+  /*Icons*/
+  .values {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px; /* Adjust padding as needed */
+    width: 100%; /* Adjust width as needed */
+  }
+  
+  .check-icon, .bin-icon {
+    font-size: 1.8rem; /* Adjust icon size as needed */
+    color: white; /* Adjust color as needed */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+    cursor: pointer;
+  }
+
+  .check-icon:hover, .bin-icon:hover {
+    transform: scale(1.3); /* Scale up the component slightly */
+  }
+
+  
+  .check-icon {
+    margin-right: auto; /* Push the icon to the left */
+  }
+  
+  .bin-icon {
+    margin-right: 10%;
+    margin-left: auto; /* Push the icon to the right */
+    color: red;
+  }
+  
+
+  .check-icon.completed {
+    color: rgb(151, 231, 151);
+  }
+  
