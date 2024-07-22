@@ -25,8 +25,8 @@ Our application empowers users to effortlessly organize their shopping experienc
 
 | ![Tasky](project/screenshots/Desktop_1.png) | ![Tasky](project/screenshots/Create_Task.png) | ![Tasky](project/screenshots/Desktop_2.png) |
 |:---:|:---:|:---:|
-| Initialize the app | Search | Maps | 
+| Starting the App | Create Task | Task Created | 
 
 | ![Tasky](project/screenshots/Desktop_3.png) | ![Tasky](project/screenshots/Select_Task.png) |
 |:---:|:---:|
-| Initialize the app | Search |
+| Filters | Edit Task |
