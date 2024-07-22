@@ -21,3 +21,12 @@ Our application empowers users to effortlessly organize their shopping experienc
 * **Delete Tasks**: Remove tasks that are no longer relevant with a simple delete option.
 * **Mark Tasks as Completed**: Users can mark tasks as completed or revert them to incomplete status as needed.
 * **Filter Tasks**: View tasks based on their status with filters to show all tasks, only completed tasks, or only incomplete tasks.
+## Screenshots
+
+| ![Tasky](project/screenshots/Select_Task.png) | ![Shlist](Screenshots/search.png) | ![Shlist](Screenshots/maps.png) |
+|:---:|:---:|:---:|
+| Initialize the app | Search | Maps | 
+
+| ![Shlist](Screenshots/saved.png) | ![Shlist](Screenshots/new_loc.png) | ![Shlist](Screenshots/type.png) 
+|:---:|:---:|:---:|
+| Saved Location | New Location | Type of Location | 
